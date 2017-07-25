@@ -1,0 +1,22 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "inlineSourceMap": false,
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "rootDir": "./",
+    "outDir": "./dist",
+    "lib": ["dom", "es5", "es2015.promise"],
+    "declaration": true,
+    "types": ["vue-typescript-import-dts"]
+  },
+  "exclude": ["node_modules"],
+  "include": ["src/**/*", "example/src/**/*"]
+}

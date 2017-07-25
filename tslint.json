@@ -1,0 +1,50 @@
+{
+  "extends": ["tslint:all"],
+  "rules": {
+    "quotemark": ["single", "jsx-double"],
+    "prefer-function-over-method": false,
+    "no-import-side-effect": false,
+    "typedef": [
+      true,
+      "call-signature",
+      "member-variable-declaration",
+      "parameter",
+      "property-declaration"
+    ],
+    "completed-docs": [true, "classes", "functions", "methods", "properties"],
+    "interface-name": ["never-prefix"],
+    "align": [false, "parameters"],
+    "no-magic-numbers": false,
+    "no-inferrable-types": false,
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "arrow-parens": false,
+    "prefer-method-signature": false,
+    "no-any": false,
+    "no-parameter-properties": false,
+    "array-type": [false],
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "no-object-literal-type-assertion": false,
+    "max-classes-per-file": [false],
+    "no-unsafe-any": false,
+    "no-void-expression": false,
+    "match-default-export-name": false,
+    "strict-type-predicates": false,
+    "only-arrow-functions": [false],
+    "no-default-export": false,
+    "member-access": [true, "check-accessor", "no-public"]
+  }
+}

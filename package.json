@@ -1,0 +1,38 @@
+{
+  "name": "vuexts",
+  "version": "0.1.0",
+  "description": "Vuex for modern typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "demo": "webpack-dev-server --config ./example/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasDev/vuexts.git"
+  },
+  "keywords": ["VueJS", "VueX", "TypeScript", "decorators", "store"],
+  "author": "Dany Sluijk <dany@atlasdev.nl> (https://atlasdev.nl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtlasDev/vuexts/issues"
+  },
+  "homepage": "https://github.com/AtlasDev/vuexts#readme",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "typescript": "^2.4.2",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "boilerpack": "^0.1.0",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "ts-loader": "^2.3.1",
+    "vue": "^2.4.2",
+    "vue-class-component": "^5.0.2",
+    "vue-loader": "^13.0.2",
+    "vue-template-compiler": "^2.4.2",
+    "vue-typescript-import-dts": "^3.1.0",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
